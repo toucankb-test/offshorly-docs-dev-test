@@ -5,3 +5,7 @@ This is just a sample
 ```python
 print('Hello, World!')
 ```
+
+```python
+print("Test")
+```
