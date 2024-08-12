@@ -2,6 +2,9 @@ import fs from 'fs/promises';
 import getMdPaths from './getMdPaths.js'
 import { exec } from 'child_process';
 import path from 'path';
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
 
 async function getAuthor(filePath : any) {
   const normalizedFilePath = path.normalize(filePath).replace(/\\/g, '/');
@@ -96,23 +99,51 @@ async function extractMdContent(filePath : any) {
     };
 }
 
+async function getLastMainCommit(): Promise<string> {
+  try {
+    // Get the last commit on the main branch
+    const { stdout } = await execAsync('git rev-parse origin/main');
+    return stdout.trim();
+  } catch (error) {
+    console.error('Error getting last main commit:', error);
+    throw error;
+  }
+}
 
-async function processMarkdownFiles(directory:any) {
-  const mdFiles = await getMdPaths(directory,[]);
+async function isFileChangedSinceMainBranch(filePath: string): Promise<boolean> {
+  try {
+    const lastMainCommit = await getLastMainCommit();
+    
+    // Check if the file has changed between the last main commit and the current HEAD
+    const { stdout } = await execAsync(`git diff --name-only ${lastMainCommit} HEAD -- ${filePath}`);
+    
+    return stdout.trim() !== '';
+  } catch (error) {
+    console.error(`Error checking git status for ${filePath}:`, error);
+    return false;
+  }
+}
+
+async function processMarkdownFiles(directory: string): Promise<any[]> {
+  const mdFiles = await getMdPaths(directory, []);
   const filesData = [];
 
   for (const filePath of mdFiles) {
-    console.log(`Processing file: ${filePath}`);
-    const { title, description, author } = await extractMdContent(filePath);
-    // Replace backslashes with forward slashes
     const normalizedPath = filePath.replace(/\\/g, '/');
-    filesData.push({
-      title: title,
-      desc: description,
-      path: normalizedPath,
-      author: author,
-      source: "INTERNAL" // You can modify this as needed
-    });
+    
+    if (await isFileChangedSinceMainBranch(normalizedPath)) {
+      console.log(`Processing file: ${filePath}`);
+      const { title, description, author } = await extractMdContent(filePath);
+      filesData.push({
+        title: title,
+        desc: description,
+        path: normalizedPath,
+        author: author,
+        source: "INTERNAL" // for internal 
+      });
+    } else {
+      console.log(`File not changed since main branch, skipping: ${filePath}`);
+    }
   }
 
   return filesData;
@@ -123,6 +154,10 @@ async function main() {
   
   try {
     const filesData = await processMarkdownFiles(directory);
+    if (filesData.length === 0) {
+      console.log('No files to process.');
+      return;
+    }
     const output = { files: filesData };
     
     const response = await fetch('https://kb-backend-dev.onrender.com/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
