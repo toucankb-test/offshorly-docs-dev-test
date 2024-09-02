@@ -98,4 +98,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 #### ai_generated
 
 - [printing (24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/printing%20(24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md)
+
+#### web_entry
+
+- [print in cobol (3a4c502d-9607-495e-9387-89a6b10f2b8e).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20cobol%20(3a4c502d-9607-495e-9387-89a6b10f2b8e).md)
   
