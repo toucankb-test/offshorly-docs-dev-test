@@ -99,6 +99,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [printing (24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/printing%20(24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md)
 
+- [printing in python 2 (3d664b1f-2caf-4bda-8edd-cab5754e6b2a).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/printing%20in%20python%202%20(3d664b1f-2caf-4bda-8edd-cab5754e6b2a).md)
+
 #### web_entry
 
 - [print in c (ae2f060d-a925-47db-98eb-9d346b60c23c).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20c%20(ae2f060d-a925-47db-98eb-9d346b60c23c).md)
