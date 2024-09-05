@@ -6,6 +6,9 @@ async function lintContent(paths: string[]) {
     config: {
       MD013: {
         line_length: 250,
+      },
+      MD024: {
+        "siblings_only": true
       }
     },
   }
