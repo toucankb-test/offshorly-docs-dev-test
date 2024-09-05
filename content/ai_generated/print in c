@@ -1,0 +1,18 @@
+# Print in C#
+
+This markdown file demonstrates how to print in C#.
+
+```csharp
+Console.WriteLine("Hello, World!");
+```
+
+In C#, we use the `Console.WriteLine()` method to print text to the console. This method automatically adds a newline character at the end of the output.
+
+For printing without a newline, you can use `Console.Write()` instead:
+
+```csharp
+Console.Write("Hello, ");
+Console.Write("World!");
+```
+
+This will output "Hello, World!" on a single line.
