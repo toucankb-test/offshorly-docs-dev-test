@@ -1,4 +1,4 @@
-# Printing in C#
+# Printing in C\#
 
 This guide demonstrates various methods to print output in C# using the `Console` class.
 
