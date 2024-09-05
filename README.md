@@ -97,6 +97,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### ai_generated
 
+- [Authentication in Express Testing Thu (e981c24f-8bb5-4baa-962a-b30b61c9b92d).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(e981c24f-8bb5-4baa-962a-b30b61c9b92d).md)
+
 - [printing (24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/printing%20(24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md)
 
 - [printing in python 2 (3d664b1f-2caf-4bda-8edd-cab5754e6b2a).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/printing%20in%20python%202%20(3d664b1f-2caf-4bda-8edd-cab5754e6b2a).md)
