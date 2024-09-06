@@ -91,6 +91,10 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [print in python](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/ai_generated/print%20in%20python%20(9511d8ee-36e9-48fc-add9-33f99f2cfc43).md)
 
+##### _web_entry_
+
+- [For Loop in Python](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/web_entry/For%20Loop%20in%20Python%20(4ddbd0b0-004b-4bf2-9e6a-76f12aa4a208).md)
+
 #### Test
 
 ##### _ai_generated_
