@@ -45,6 +45,12 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 ### Table of Contents
 
+#### C\#
+
+##### _Web_
+
+- [Print in C#](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/C#/Web/Print%20in%20C#%20(74d2fdc6-588b-4805-8423-204dd562b056).md)
+
 #### Cloud
 
 ##### _AWS_
