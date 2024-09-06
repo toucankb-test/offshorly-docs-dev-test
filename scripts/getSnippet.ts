@@ -104,7 +104,7 @@ async function extractMdContent(filePath: any) {
 }
 
 async function processMarkdownFiles(directory: any) {
-  const mdFiles = await getMdPaths(directory, [])
+  const mdFiles = getMdPaths(directory, [])
   const filesData = []
 
   for (const filePath of mdFiles) {
@@ -135,6 +135,7 @@ async function processMarkdownFiles(directory: any) {
 
 async function main() {
   const directory = 'content' // Replace with your directory path
+  const baseUrl = process.env.BASE_API_URL
   const apiKey = process.env.CODEBASE_KB_API_KEY
 
   try {
@@ -142,9 +143,8 @@ async function main() {
     const output = { files: filesData }
 
     const response = await fetch(
-      'https://kb-backend-dev.onrender.com/api/markdown',
+      `${baseUrl}markdown`,
       {
-        // https://kb-backend-ompt.onrender.com/api/code_snippet render
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

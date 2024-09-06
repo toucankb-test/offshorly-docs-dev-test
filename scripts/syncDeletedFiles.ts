@@ -1,7 +1,7 @@
 import getMdPaths from "./getMdPaths.js";
 
 async function syncDeletedFiles(paths: string[]) {
-  const endpoint = 'https://kb-backend-dev.onrender.com/api/delete-markdown'
+  const endpoint = `${process.env.BASE_API_URL}markdown/missing`
   const apiKey = process.env.CODEBASE_KB_API_KEY;
   try {
     const response = await fetch(endpoint, {
