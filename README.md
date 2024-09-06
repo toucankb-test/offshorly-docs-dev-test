@@ -115,14 +115,4 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [test_france.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_france.md)
 
 - [test_security.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_security.md)
-
-#### web_entry
-
-- [print in c (ae2f060d-a925-47db-98eb-9d346b60c23c).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20c%20(ae2f060d-a925-47db-98eb-9d346b60c23c).md)
-
-- [print in cobol (3a4c502d-9607-495e-9387-89a6b10f2b8e).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20cobol%20(3a4c502d-9607-495e-9387-89a6b10f2b8e).md)
-
-- [print in cobol (3dbc2fdf-48fc-416d-931d-0fd959db4384).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20cobol%20(3dbc2fdf-48fc-416d-931d-0fd959db4384).md)
-
-- [print in ruby (e6197b73-4327-4125-bab2-dc38a529aa09).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20ruby%20(e6197b73-4327-4125-bab2-dc38a529aa09).md)
   
