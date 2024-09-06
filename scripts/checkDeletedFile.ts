@@ -46,7 +46,7 @@ async function run() {
   }
 }
 
-run(); // Start the process
+// run(); // Start the process
 
 // For debugging purposes, you can call getDeletedFiles separately and log the result
-// getDeletedFiles().then((deletesFile) => console.log(deletesFile))
+getDeletedFiles().then((deletesFile) => console.log(deletesFile))
