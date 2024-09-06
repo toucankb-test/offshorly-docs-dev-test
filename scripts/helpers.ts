@@ -80,7 +80,7 @@ function generateGitHubMarkdownList(
         markdown += '\n\n'
       } else markdown += '\n'
       // Otherwise, format as category header and recursively generate list
-      markdown += isSubCategory ? `##### _${key}_\n` : `#### ${key}\n`
+      markdown += isSubCategory ? `##### _${key.replaceAll("#", "\\#")}_\n` : `#### ${key.replaceAll("#", "\\#")}\n`
       markdown += generateGitHubMarkdownList(
         obj[key] as GroupedData,
         `${pathPrefix}/${key}`,
