@@ -47,13 +47,13 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Cloud
 
-##### AWS
+##### _AWS_
 
 - [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
 #### Database
 
-##### Prisma
+##### _Prisma_
 
 - [pagination.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/pagination.md)
 
@@ -79,7 +79,7 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
-##### ai_generated
+##### _ai_generated_
 
 - [Authentication in Express Testing Thu (2e2f110f-4072-4278-97e9-a1e040c041ea) copy.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy.md)
 
@@ -87,7 +87,7 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Test
 
-##### ai_generated
+##### _ai_generated_
 
 - [Authentication in Express Testing Thu (2d2df5f4-401b-49a3-bd9a-82c229bc758e).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2d2df5f4-401b-49a3-bd9a-82c229bc758e).md)
 
