@@ -65,6 +65,12 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [setup](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/setup.md)
 
+#### Java
+
+##### _AI_
+
+- [Print in Java](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Java/AI/Print%20in%20Java%20(7ca999d6-e61a-4395-8904-e797d10dbbd5).md)
+
 #### Packages
 
 - [zod](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Packages/zod.md)
