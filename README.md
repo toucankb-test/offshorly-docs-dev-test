@@ -47,13 +47,13 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Cloud
 
-#### AWS
+##### AWS
 
 - [AWS lambda.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
 #### Database
 
-#### Prisma
+##### Prisma
 
 - [pagination.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Database/Prisma/pagination.md)
 
@@ -79,11 +79,27 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
+##### ai_generated
+
+- [Authentication in Express Testing Thu (2e2f110f-4072-4278-97e9-a1e040c041ea) copy.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy.md)
+
+- [Authentication in Express Testing Thu (2e2f110f-4072-4278-97e9-a1e040c041ea) copy5 5.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy5%205.md)
+
 #### Test
 
-#### ai_generated
+##### ai_generated
+
+- [Authentication in Express Testing Thu (2d2df5f4-401b-49a3-bd9a-82c229bc758e).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2d2df5f4-401b-49a3-bd9a-82c229bc758e).md)
 
 - [Authentication in Express Testing Thu (2e2f110f-4072-4278-97e9-a1e040c041ea).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea).md)
+
+- [Authentication in Express Testing Thu (3cb8684a-968f-4192-9ce0-6b3ef02282aa).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(3cb8684a-968f-4192-9ce0-6b3ef02282aa).md)
+
+- [Authentication in Express Testing Thu (7ce43794-4a5b-4a61-b2dd-249ad1ae2d93).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(7ce43794-4a5b-4a61-b2dd-249ad1ae2d93).md)
+
+- [Authentication in Express Testing Thu (8c391ee9-6d08-4784-8a39-14bca2936ffa).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(8c391ee9-6d08-4784-8a39-14bca2936ffa).md)
+
+- [Authentication in Express Testing Thu (aac21aef-0992-4dd8-898f-cfe277b47d9a).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(aac21aef-0992-4dd8-898f-cfe277b47d9a).md)
 
 - [Authentication in Express Testing Thu (f09be734-c021-4602-a40b-b3d5b2ccb3b3).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(f09be734-c021-4602-a40b-b3d5b2ccb3b3).md)
 - [firebase_with_github_auth.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/firebase_with_github_auth.md)
