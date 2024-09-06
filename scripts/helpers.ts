@@ -58,6 +58,7 @@ function groupByCategories(data: string[][]): GroupedData {
 function generateGitHubMarkdownList(
   obj: GroupedData,
   pathPrefix: string = '',
+  isSubCategory: boolean = false
 ): string {
   let markdown = ''
 
@@ -75,10 +76,11 @@ function generateGitHubMarkdownList(
         markdown += '\n\n'
       } else markdown += '\n'
       // Otherwise, format as category header and recursively generate list
-      markdown += `#### ${key}\n`
+      markdown += isSubCategory ? `##### ${key}\n` : `#### ${key}\n`
       markdown += generateGitHubMarkdownList(
         obj[key] as GroupedData,
         `${pathPrefix}/${key}`,
+        true
       )
     }
   })

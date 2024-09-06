@@ -3,7 +3,7 @@
   "MD013": {
     "line_length": 250
   },
-  "no-duplicate-heading": {
+  "MD024": {
     "siblings_only": true
   }
 }
