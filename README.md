@@ -101,6 +101,12 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [For Loop in Python](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/web_entry/For%20Loop%20in%20Python%20(4ddbd0b0-004b-4bf2-9e6a-76f12aa4a208).md)
 
+#### Ruby
+
+##### _AI_
+
+- [Print in Ruby](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Ruby/AI/Print%20in%20Ruby%20(b508a80c-07ec-4c9a-ba06-efe981c2168e).md)
+
 #### Test
 
 - [firebase_with_github_auth](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/firebase_with_github_auth.md)
