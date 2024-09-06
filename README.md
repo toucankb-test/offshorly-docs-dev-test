@@ -49,7 +49,7 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 ##### _AWS_
 
-- [AWS](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
+- [AWS lambda](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
 #### Database
 
@@ -65,25 +65,25 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### Project
 
-- [Authentication in](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Authentication%20in%20Express.md)
+- [Authentication in Express](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Authentication%20in%20Express.md)
 
-- [Automated Testing with Jest and](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Automated%20Testing%20with%20Jest%20and%20Mocha.md)
+- [Automated Testing with Jest and Mocha](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Automated%20Testing%20with%20Jest%20and%20Mocha.md)
 
-- [Developing Progressive Web Apps](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Developing%20Progressive%20Web%20Apps%20PWAs.md)
+- [Developing Progressive Web Apps PWAs](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Developing%20Progressive%20Web%20Apps%20PWAs.md)
 
-- [How to create Pagination in](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/How%20to%20create%20Pagination%20in%20Express.md)
+- [How to create Pagination in Express](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/How%20to%20create%20Pagination%20in%20Express.md)
 
-- [Implementing Real-Time Data Processing with Apache](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
+- [Implementing Real-Time Data Processing with Apache Kafka](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
 
-- [Print in](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Print%20in%20Javascript.md)
+- [Print in Javascript](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Print%20in%20Javascript.md)
 
-- [Setting Up a Full-Stack Application with](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
+- [Setting Up a Full-Stack Application with MERN](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
 ##### _ai_generated_
 
 - [Authentication in Express Testing Thu](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy.md)
 
-- [Authentication in Express Testing Thu (2e2f110f-4072-4278-97e9-a1e040c041ea) copy5](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy5%205.md)
+- [Authentication in Express Testing Thu](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy5%205.md)
 
 #### Python
 
