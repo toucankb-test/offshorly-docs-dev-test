@@ -55,12 +55,11 @@ function groupByCategories(data: string[][]): GroupedData {
   }, {})
 }
 
-function transformFilename(filename: string): string {
+function transformFilename(filename: string): string{
   // Regular expression to match the last set of parentheses and their contents, and optional trailing text
   const regex = /(.*?)(?: \([^)]*\))?(?: \w+)?\.md$/;
 
-  // Replace the last set of parentheses and their contents, and optional trailing text
-  // with the captured part and add back .md
+  // Replace the last set of parentheses and their contents, and optional trailing text, with the captured part
   return filename.replace(regex, '$1');
 }
 
