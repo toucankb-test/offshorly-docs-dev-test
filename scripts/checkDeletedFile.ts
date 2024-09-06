@@ -1,20 +1,43 @@
 import { execSync } from 'child_process'
 
-async function getDeletedFiles() {
+// async function getDeletedFiles() {
+//   try {
+//     // compare the current HEAD with the last commit on the main branch before the push
+//     const diffOutput = execSync(
+//       'git diff --name-status origin/main...HEAD',
+//     ).toString()
+//     const deletedFiles = diffOutput
+//       .split('\n')
+//       .filter((line) => line.startsWith('D'))
+//       .map((line) => line.split('\t')[1])
+//       .filter((filePath) => filePath.length > 0)
+//     return { deleted: deletedFiles }
+//   } catch (error) {
+//     console.error('Error getting deleted files:', error)
+//     return { deleted: [] }
+//   }
+// }
+
+interface DeletedFilesResult {
+  deleted: string[];
+}
+
+function getDeletedFiles(): DeletedFilesResult {
   try {
-    // compare the current HEAD with the last commit on the main branch before the push
-    const diffOutput = execSync(
-      'git diff --name-status origin/main...HEAD',
-    ).toString()
-    const deletedFiles = diffOutput
+    // Fetch the latest changes from the main branch
+    execSync('git fetch origin main', { stdio: 'inherit' });
+
+    // Get the list of deleted files
+    const result = execSync('git diff --name-status origin/main', { encoding: 'utf8' });
+    const deletedFiles = result
       .split('\n')
-      .filter((line) => line.startsWith('D'))
-      .map((line) => line.split('\t')[1])
-      .filter((filePath) => filePath.length > 0)
-    return { deleted: deletedFiles }
+      .filter(line => line.startsWith('D'))
+      .map(line => line.split('\t')[1]);
+
+    return { deleted: deletedFiles };
   } catch (error) {
-    console.error('Error getting deleted files:', error)
-    return { deleted: [] }
+    console.error('Error detecting deleted files:', error);
+    process.exit(1);
   }
 }
 
@@ -46,7 +69,7 @@ async function run() {
   }
 }
 
-// run(); // Start the process
+run(); // Start the process
 
 // For debugging purposes, you can call getDeletedFiles separately and log the result
-getDeletedFiles().then((deletesFile) => console.log(deletesFile))
+// getDeletedFiles().then((deletesFile) => console.log(deletesFile))
