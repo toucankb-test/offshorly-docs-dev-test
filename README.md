@@ -91,10 +91,6 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Setting Up a Full-Stack Application with MERN](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
-##### _ai_generated_
-
-- [Authentication in Express Testing Thu](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy.md)
-
 #### Python
 
 ##### _ai_generated_
