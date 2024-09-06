@@ -55,6 +55,14 @@ function groupByCategories(data: string[][]): GroupedData {
   }, {})
 }
 
+function transformFilename(filename: string): string {
+  // Regular expression to match the last set of parentheses and their contents
+  const regex = /^(.*?)(?:\s\([^)]*\))?(\s\([^\)]*\))?\.md$/;
+
+  // Replace the last set of parentheses with an empty string
+  return filename.replace(regex, '$1.md');
+}
+
 function generateGitHubMarkdownList(
   obj: GroupedData,
   pathPrefix: string = '',
@@ -68,7 +76,7 @@ function generateGitHubMarkdownList(
       markdown += (obj[key] as string[])
         .map((item) => {
           const itemPath = `${pathPrefix}/${item}`
-          return `\n- [${item}](${new URL(itemPath).toString()})`
+          return `\n- [${transformFilename(item)}](${new URL(itemPath).toString()})`
         })
         .join('\n')
     } else {
