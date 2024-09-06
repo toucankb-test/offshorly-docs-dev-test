@@ -85,6 +85,12 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Authentication in Express Testing Thu (2e2f110f-4072-4278-97e9-a1e040c041ea) copy5 5.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/ai_generated/Authentication%20in%20Express%20Testing%20Thu%20(2e2f110f-4072-4278-97e9-a1e040c041ea)%20copy5%205.md)
 
+#### Python
+
+##### _ai_generated_
+
+- [print in python (9511d8ee-36e9-48fc-add9-33f99f2cfc43).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/ai_generated/print%20in%20python%20(9511d8ee-36e9-48fc-add9-33f99f2cfc43).md)
+
 #### Test
 
 ##### _ai_generated_
