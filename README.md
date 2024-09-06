@@ -51,6 +51,12 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [AWS lambda](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cloud/AWS/AWS%20lambda.md)
 
+#### Cobol
+
+##### _AI_
+
+- [Print in Cobol](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Cobol/AI/Print%20in%20Cobol%20(52a3a887-57f6-4a8b-991f-04422abc7b67).md)
+
 #### Database
 
 ##### _Prisma_
