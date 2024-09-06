@@ -63,7 +63,7 @@ async function extractMdContent(filePath: any) {
 
     if (!title && trimmedLine.startsWith('#')) {
       // Found the title
-      title = trimmedLine.replace(/^#+\s*/, '').trim()
+      title = trimmedLine.replace(/^#+\s*|\s*#+$/g, '').trim();
       // console.log("Title found:", title);
       isReadingDescription = true
       continue
