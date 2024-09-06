@@ -56,11 +56,12 @@ function groupByCategories(data: string[][]): GroupedData {
 }
 
 function transformFilename(filename: string): string {
-  // Regular expression to match the last set of parentheses and their contents
-  const regex = /^(.*?)(?:\s\([^)]*\))?(\s\([^\)]*\))?\.md$/;
+  // Regular expression to match the last set of parentheses and their contents, and optional trailing text
+  const regex = /(.*?)(?: \([^)]*\))?(?: \w+)?\.md$/;
 
-  // Replace the last set of parentheses with an empty string
-  return filename.replace(regex, '$1.md');
+  // Replace the last set of parentheses and their contents, and optional trailing text
+  // with the captured part and add back .md
+  return filename.replace(regex, '$1');
 }
 
 function generateGitHubMarkdownList(
