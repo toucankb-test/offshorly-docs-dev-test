@@ -115,11 +115,9 @@ async function processMarkdownFiles(directory: any) {
 
     // Determine the source based on the directory
     let source = 'INTERNAL' // Default source
-    if (normalizedPath.includes('/ai_generated/')) {
-      console.log('AI generated file found')
+    if (normalizedPath.includes('/AI/')) {
       source = 'AI'
-    } else if (normalizedPath.includes('/web_entry/')) {
-      console.log('Web entry file found')
+    } else if (normalizedPath.includes('/Web/')) {
       source = 'EXTERNAL'
     }
 
