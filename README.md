@@ -103,6 +103,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Authentication in Fast API](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/AI/Authentication%20in%20Fast%20API%20(2d561039-980c-4897-b1f5-fbc69f42875f).md)
 
+- [Authentication in Flask](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/AI/Authentication%20in%20Flask%20(d7611187-7f84-482b-8f61-d484b4eaf3ca).md)
+
 ##### _ai_generated_
 
 - [print in python](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Python/ai_generated/print%20in%20python%20(9511d8ee-36e9-48fc-add9-33f99f2cfc43).md)
